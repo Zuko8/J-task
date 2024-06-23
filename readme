@@ -1,2 +1,184 @@
 forck this repo
 and clone into local machine and place the history of previous comands
+    1  yum install git -y
+    2  git init
+    3  clear
+    4  vi read_me.txt
+    5  git add .
+    6  git commit -m " master commit "
+    7  git branch dev1
+    8  git branch dev2
+    9  git branch dev3
+   10  git branch dev4
+   11  git branch dev5
+   12  git checkout dev1
+   13  vi sam1.txt
+   14  git add .
+   15  git commit -m "dev1 commit"
+   16  clear
+   17  git checkout dev2
+   18  vi sam2.txt
+   19  git add .
+   20  git commit -m "dev2 commit"
+   21  git checkout dev3
+   22  git merge dev1
+   23  ls
+   24  git merge dev2
+   25  clear
+   26  git log --oneline
+   27  ls
+   28  cat read_me.txt
+   29  cat sam1.txt
+   30  cat sam2.txt
+   31  git rebase dev4
+   32  git checckout dev4
+   33  git checkout dev4
+   34  ls
+   35  cat read_me.txt
+   36  ls
+   37  git checkout dev3
+   38  ls
+   39  git checkout dev4
+   40  git rebase dev3
+   41  ls
+   42  clear
+   43  git checkout dev5
+   44  vi sam5.txt
+   45  git add .
+   46  git commit -m "dev5 commit1"
+   47  vi sam5.txt
+   48  git add .
+   49  git commit -m "dev5 commit2"
+   50  clear
+   51  vi sam5.txt
+   52  git add .
+   53  git commit -m "dev5 commit3"
+   54  vi sam5.txt
+   55  git add .
+   56  git commit -m "dev5 commit4"
+   57  vi sam5.txt
+   58  vi sam5.txt
+   59  clear
+   60  git add .
+   61  git commit -m "dev5 commit5"
+   62  vi sam5.txt
+   63  git add .
+   64  git commit -m "dev5 commit6"
+   65  clear
+   66  git log --oneline
+   67  git checkout dev1
+   68  git cherry-pick 273e2f0
+   69  git cherry-pick --abort
+   70  git cherry-pick 273e2f0 -n
+   71  ls
+   72  cat  sam5.txt
+   73  git rm -f  sam5.txt
+   74  clear
+   75  ls
+   76  vi sam1.txt
+   77  git add .
+   78  git commit -m "2nd commit in dev1"
+   79  clear
+   80  git branch
+   81  git checkout dev5
+   82  ls
+   83  vi sam5.txt
+   84  git add .
+   85  git commit -m "6th commit in dev5"
+   86  clear
+   87  git log --oneline
+   88  git checkout dev1
+   89  git cherry-pick 21bc651 -n
+   90  ls
+   91  git --mergetool
+   92  --help
+   93  git --help
+   94  clear
+   95  git help cherry-pick
+   96  git status
+   97  ls
+   98  cat  sam5.txt
+   99  git rm -f  sam5.txt
+  100  ls
+  101  git mergetool
+  102  git help config
+  103  clear
+  104  git config mergetool
+  105  giy status
+  106  git status
+  107  git checkout dev5
+  108  git status
+  109  clear
+  110  git branch
+  111  ls
+  112  cat  sam5.txt
+  113  git checkout dev1
+  114  clear
+  115  git log dev5 --oneline
+  116  git cherry-pick dev5~6
+  117  git commit -m"cherry-picked 7th commit from dev5 onto dev1"
+  118  ls
+  119  cat  sam5.txt
+  120  clear
+  121  git log dev5 --oneline
+  122  git rm-f sam5.txt
+  123  git rm -f sam5.txt
+  124  ls
+  125  git log dev5 --oneline
+  126  clearr
+  127  clear
+  128  git log dev5 --oneline
+  129  git checkout dev5
+  130  git stash
+  131  ls
+  132  cat sam5.txt
+  133  git rm -f sam5.txt
+  134  git commit -m "remove commit"
+  135  clear
+  136  ls
+  137  git branch
+  138  git cherry-pick dev5~7
+  139  git cherry-pick --continue
+  140  clear
+  141  ls
+  142  git cherry-pick dev5~7
+  143  ls
+  144  git log dev5 --oneline
+  145  git commit --allow-empty
+  146  ls
+  147  clear
+  148  ls
+  149  git status
+  150  ls
+  151  git log dev5 --oneline
+  152  git cherry-pick 21bc651 --no-commit
+  153  ls
+  154  cat  sam5.txt
+  155  git cherry-pick 21bc651 -n
+  156  clear
+  157  git status
+  158  git mergetool
+  159  ls
+  160  cat sam5.txt
+  161  cat sam5.txt.orig
+  162  git rm -f sam5.txt.orig sam5.txt
+  163  clear
+  164  ls
+  165  git rm -f sam5.txt.orig
+  166  git rm -f sam5.txt
+  167  ls
+  168  cat sam5.txt.orig
+  169  git@github.com:Zuko8/J-task.git
+  170  ssh-keygen -t ed25519
+  171   /root/.ssh/id_ed25519.pub
+  172   in /root/.ssh/id_ed2551
+  173   in /root/.ssh/id_ed25519
+  174  clear
+  175  ssh-keygen -t ed25519
+  176  cat /root/.ssh/id_ed25519.pub
+  177  git clone git@github.com:Zuko8/J-task.git
+  178  clear
+  179  cd J-task
+  180  ls
+  181  cat readme
+  182  history 
